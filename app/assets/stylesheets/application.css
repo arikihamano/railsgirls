@@ -15,7 +15,7 @@
  */
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 footer {
   margin-top: 100px;
@@ -28,4 +28,24 @@ th {
 }
 th {
   border-bottom: 1px solid #ddd;
+}
+
+nav.navbar {
+  min-height: 38px;
+  background-color: #f55e55;
+  background-image: none;
+}
+
+.navbar a.brand {
+  font-size: 18px;
+}
+.navbar a.brand:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #ebebeb;
+  padding: 30px 0;
 }
